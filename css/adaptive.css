@@ -1,0 +1,51 @@
+@media screen and (max-width: 1000px) {
+
+    header {
+        width: 100%;
+        background-repeat: repeat;
+        resize: inherit;
+    }
+
+     header nav ul {
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: baseline;
+        gap: 60px;
+    }
+
+    header nav {
+        margin-bottom: 80px;
+        border-bottom: 3px solid #000000;
+        border-top: 3px solid #000000;
+    }
+
+    header li a {
+        margin: 0 auto;
+        font-size: 60px;
+        font-weight: 800;
+    }
+    header .main-title__header {
+        text-align: center;
+        font-size: 50px;
+        letter-spacing: 10px;
+        line-height: 10px;
+        margin-bottom: 40px;
+    }
+    header .main-description__header {
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: 120px;
+    }
+
+    .main-title__header {
+        text-align: left;
+
+    }
+    header .button-learn-more__header {
+        padding: 50px 150px;
+        font-size: 40px;
+        line-height: 0;
+    }
+}
+
