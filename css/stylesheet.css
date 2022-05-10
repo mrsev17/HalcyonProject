@@ -637,3 +637,146 @@ header .button-learn-more__header:hover {
     border: 2px solid #3dc9b3;
     transition: .5s;
 }
+
+/* Drop */
+
+.drop {
+    background-color: #f3f5f8;
+    padding: 126px 0 127px 0;
+}
+
+.drop .title__drop {
+    text-align: center;
+    color: #353535;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.drop .wrapper-container__team {
+    margin-top: 26px;
+    display: flex;
+    justify-content: center;
+}
+
+.drop .picture-arrow__template {
+    padding: 0 36px 0 36px;
+}
+
+.drop .main-content__team {
+    margin: 92px 0 0 0;
+}
+
+.drop .wrapper-main-content__team {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.drop .item-main-content__team {
+    width: 100%;
+    max-width: 360px;
+    background-color: white;
+}
+
+.drop .item-main-content__team figure img {
+    margin: 29px auto 0;
+}
+
+.drop .item-main-content__team .item-title__team {
+    margin: 20px 0 0 0;
+    text-align: center;
+    color: #3dc9b3;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.drop .item-main-content__team address {
+    margin: 30px 0 30px 0;
+    text-align: center;
+    color: #8c9398;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.drop .links-networks__team {
+    margin: 113px 0 0 0;
+}
+
+.drop .links-networks__team .wrapper-links-network__team {
+    display: flex;
+    justify-content: center;
+}
+
+.drop .wrapper-icons-crew__team {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.drop .item-icons-crew-mid {
+    padding: 0 30px 0;
+}
+
+.drop .icon-top-crew {
+    position: absolute;
+    bottom: 0;
+    display: none;
+}
+
+.drop .icon-figure {
+    position: relative;
+    display: inline-block;
+    min-width: 40px;
+    min-height: 42px;
+}
+
+.drop .icon-figure .icon-top-crew {
+    position: absolute;
+    bottom: 15px;
+    right: 12px;
+    display: inline;
+}
+
+.drop .background-hover-crew {
+    min-width: 40px;
+    min-height: 42px;
+    position: absolute;
+    display: none;
+    top: 0;
+}
+
+.drop .icon-figure:hover .background-hover-crew {
+    display: inline;
+}
+
+/* footer */
+
+footer {
+    background-color: #242830;
+}
+
+footer .wrapper__footer {
+    padding: 55px 0 51px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p {
+    color: #a1a9b0;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+footer .finlan-name__footer {
+    color: #a1a9b0;
+    font-family: "Gotham Rounded - Book", sans-serif;
+    font-weight: 300;
+    opacity: 0.7;
+}
+
+
+
