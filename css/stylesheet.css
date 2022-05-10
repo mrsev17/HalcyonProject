@@ -350,15 +350,23 @@ header .button-learn-more__header:hover {
     font-weight: 500;
 }
 
+
+.nine-nine-problems .nine-problems-figure {
+    position: relative;
+    display: inline-block;
+    min-width: 44px;
+    min-height: 44px;
+    margin: 43px 0 0 542px;
+}
+.nine-nine-problems .nine-problems-figure #check-icon-nine-problems {
+    position: absolute;
+    bottom: 15px;
+    right: 14px;
+    display: inline;
+}
 .nine-nine-problems #check-icon-nine-problems {
-    background-image: url(../assets/icons/Shape_10.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
-    margin: 60px auto;
-    width: 100%;
-    max-width: 17px;
-    max-height: 11px;
+    position: absolute;
+    bottom: 0;
 }
 
 /* Benefits */
