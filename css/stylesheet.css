@@ -149,8 +149,8 @@ header .button-learn-more__header:hover {
 }
 
 .creative-template .text-creative__template {
-    max-width: 740px;
-    max-height: 135px;
+    width: 100%;
+    max-width: 700px;
     color: #8c9398;
     font-size: 14px;
     font-weight: 500;
@@ -787,7 +787,7 @@ footer .finlan-name__footer {
 
 /* Adaptive media breakpoints */
 
-@media screen and (max-width: 1024px) {
+@media (max-device-width: 1024px) {
 
     .container__header {
         max-width: 1024px;
@@ -820,7 +820,7 @@ footer .finlan-name__footer {
     }
 }
 
-@media screen and (max-width: 960px) {
+@media (max-device-width: 960px) {
 
     /* Responsive design */
 
@@ -836,7 +836,13 @@ footer .finlan-name__footer {
 
 }
 
-@media screen and (max-width: 796px) {
+@media (max-device-width: 856px) {
+    .nine-nine-problems .nine-problems-figure {
+        margin: 43px 0 0 360px;
+    }
+}
+
+@media (max-device-width: 796px) {
     .container__header {
         max-width: 796px;
     }
@@ -848,13 +854,13 @@ footer .finlan-name__footer {
     }
 }
 
-@media screen and (max-width: 718px) {
+@media (max-device-width: 718px) {
     .nine-nine-problems .nine-problems-figure {
         margin: 43px 0 0 315px;
     }
 }
 
-@media screen and (max-width: 679px) {
+@media (max-device-width: 679px) {
     .container__header {
         max-width: 560px;
     }
@@ -898,7 +904,7 @@ footer .finlan-name__footer {
     }
 }
 
-@media screen and (max-width: 640px) {
+@media (max-device-width: 648px) {
 
     header .main-title__header {
         text-transform: uppercase;
@@ -921,7 +927,10 @@ footer .finlan-name__footer {
     }
 
     .skills .line-content__skills {
-        padding-left: 47%;
+        padding-left: 0;
+    }
+    .skills .line-content__skills img {
+        margin: 0 auto;
     }
 
     .skills .text-content__skills {
@@ -936,7 +945,7 @@ footer .finlan-name__footer {
         margin-left: 10px;
     }
     .nine-nine-problems .nine-problems-figure {
-        margin: 43px 0 0 270px;
+        margin: 43px 0 0 255px;
     }
     .subscribe #area-name {
         margin-bottom: 30px;
@@ -946,9 +955,12 @@ footer .finlan-name__footer {
         width: 100%;
         margin: 0;
     }
+    .team .item-content-crew {
+        margin-bottom: 20px;
+    }
 }
 
-@media screen and (max-width: 560px) {
+@media (max-device-width: 560px) {
     .container__header {
         max-width: 560px;
     }
@@ -974,7 +986,7 @@ footer .finlan-name__footer {
     }
 }
 
-@media screen and (max-width: 480px) {
+@media (max-device-width: 480px) {
 
     .container__header {
         max-width: 480px;
@@ -1060,7 +1072,13 @@ footer .finlan-name__footer {
 
 }
 
-@media screen and (max-width: 440px) {
+@media (max-device-width: 428px) {
+    .skills .line-content__skills {
+        padding-left: 46%;
+    }
+}
+
+@media (max-device-width: 440px) {
     header .button-learn-more__header {
         padding: 20px 60px;
     }
@@ -1088,7 +1106,7 @@ footer .finlan-name__footer {
     }
 }
 
-@media screen and (max-width: 400px) {
+@media (max-device-width: 400px) {
     header .button-learn-more__header {
         padding: 20px 60px;
     }
@@ -1118,7 +1136,7 @@ footer .finlan-name__footer {
 
 }
 
-@media screen and (max-width: 380px) {
+@media (max-device-width: 380px) {
     .container__header {
         max-width: 320px;
     }
@@ -1159,7 +1177,7 @@ footer .finlan-name__footer {
     }
 }
 
-@media screen and (max-width: 320px) {
+@media (max-device-width: 320px) {
     .container__header {
         max-width: 320px;
     }
