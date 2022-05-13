@@ -992,6 +992,12 @@ footer .finlan-name__footer {
     }
 }
 
+@media (max-device-width: 512px) {
+    .creative-template .text-creative__template {
+        margin-bottom: 0;
+    }
+}
+
 @media (max-device-width: 480px) {
 
     .container__header {
@@ -1001,7 +1007,7 @@ footer .finlan-name__footer {
         display: none;
     }
     header .button-learn-more__header {
-        padding: 20px 140px;
+        padding: 20px 120px;
     }
     .container {
         max-width: 480px;
@@ -1019,7 +1025,7 @@ footer .finlan-name__footer {
         letter-spacing: 20px;
     }
     .creative-template {
-        padding: 30px 0 150px;
+        padding: 30px 0 60px;
     }
     .creative-template .text-creative__template {
         margin-bottom: 30px;
@@ -1085,6 +1091,9 @@ footer .finlan-name__footer {
 }
 
 @media (max-device-width: 440px) {
+    .creative-template {
+        padding: 30px 0 70px;
+    }
     header .button-learn-more__header {
         padding: 20px 60px;
     }
@@ -1099,7 +1108,7 @@ footer .finlan-name__footer {
         padding: 10px 0 80px 10px;
     }
     .creative-template {
-        padding: 60px 0 220px;
+        padding: 60px 0 60px;
     }
     .nine-nine-problems .nine-problems-figure {
         margin: 43px 0 0 165px;
@@ -1119,6 +1128,9 @@ footer .finlan-name__footer {
 }
 
 @media (max-device-width: 428px) {
+    .creative-template {
+        padding: 30px 0 70px;
+    }
     .skills .line-content__skills {
         padding-left: 0;
     }
@@ -1142,7 +1154,7 @@ footer .finlan-name__footer {
         padding: 10px 0 80px 10px;
     }
     .creative-template {
-        padding: 60px 0 220px;
+        padding: 60px 0 60px;
     }
     .nine-nine-problems .nine-problems-figure {
         margin: 43px 0 0 165px;
@@ -1163,6 +1175,9 @@ footer .finlan-name__footer {
 }
 
 @media (max-device-width: 380px) {
+    .creative-template {
+        padding: 30px 0 5px;
+    }
     .container__header {
         max-width: 320px;
     }
@@ -1207,6 +1222,9 @@ footer .finlan-name__footer {
 }
 
 @media (max-device-width: 320px) {
+    .creative-template {
+        padding: 30px 0 40px;
+    }
     .container__header {
         max-width: 320px;
     }
