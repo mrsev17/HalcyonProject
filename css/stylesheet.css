@@ -1084,15 +1084,6 @@ footer .finlan-name__footer {
 
 }
 
-@media (max-device-width: 428px) {
-    .skills .line-content__skills {
-        padding-left: 0;
-    }
-    .skills .line-content__skills img {
-        margin: 0 auto;
-    }
-}
-
 @media (max-device-width: 440px) {
     header .button-learn-more__header {
         padding: 20px 60px;
@@ -1119,6 +1110,15 @@ footer .finlan-name__footer {
     .drop {
         padding-bottom: 60px;
     }
+    .skills .line-content__skills {
+        padding-left: 0;
+    }
+    .skills .line-content__skills img {
+        margin: 0 auto;
+    }
+}
+
+@media (max-device-width: 428px) {
     .skills .line-content__skills {
         padding-left: 0;
     }
