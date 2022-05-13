@@ -17,7 +17,9 @@ a {
 }
 .container__header {
     width: 100%;
+    /*
     max-width: 1400px;
+     */
     padding: 0 15px;
     margin: 0 auto;
 }
@@ -34,16 +36,16 @@ a {
 /* Header */
 
 header {
+    width: 100%;
     background-color: #000000;
     background-image: url("../assets/images/header_background.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     resize: none;
-    padding: 30px 0 250px 0;
+    padding: 30px 0 250px 30px;
     margin: 0;
 }
-
 header nav {
     margin-bottom: 170px;
 }
@@ -51,13 +53,14 @@ header nav {
 header nav ul {
     display: flex;
     justify-content: flex-end;
+    gap: 30px;
+    margin-right: 50px;
 }
 
 header li a {
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 400;
-    padding: 0 20px;
     color: #353535;
 }
 
@@ -228,8 +231,6 @@ header .button-learn-more__header:hover {
     justify-content: center;
 }
 
-
-
 .skills .icon-content__skills {
     background-image: url(../assets/icons/circle_icon.png);
     background-repeat: no-repeat;
@@ -302,11 +303,10 @@ header .button-learn-more__header:hover {
 
 .responsive-design .text-responsive-design {
     text-align: left;
-    width: 455px;
     color: #8c9398;
     font-size: 16px;
     font-weight: 500;
-    margin: 0 auto;
+    margin: 0 0 0 40px;
     padding: 20px 0;
 }
 
@@ -390,7 +390,7 @@ header .button-learn-more__header:hover {
 .benefits .gallery-hover__benefits {
     position: relative;
     display: inline-block;
-    min-width: 360px;
+    max-width: 360px;
 }
 
 .benefits .gallery-hover__benefits .hover-layer__benefits {
@@ -419,8 +419,6 @@ header .button-learn-more__header:hover {
 .benefits .gallery-hover__benefits:hover .view-more-hover__benefits {
     display: inline;
 }
-
-
 /* ------------- */
 
 .benefits .title-item__benefits {
@@ -787,4 +785,417 @@ footer .finlan-name__footer {
 }
 
 
+/* Adaptive media breakpoints */
 
+@media screen and (max-width: 1024px) {
+
+    .container__header {
+        max-width: 1024px;
+    }
+
+    .container {
+        max-width: 1024px;
+        padding: 0 30px;
+    }
+
+    /* Nine nine problems */
+
+    .nine-nine-problems .nine-problems-figure {
+        margin: 43px 0 0 456px;
+    }
+
+    /* benefits adaptive */
+
+    .main-img-gallery__benefits {
+        width: 100%;
+    }
+
+    .benefits .wrapper-container__benefits {
+        gap: 10px;
+    }
+
+    .benefits .gallery-hover__benefits {
+        max-width: 360px;
+        min-width: 0;
+    }
+}
+
+@media screen and (max-width: 960px) {
+
+    /* Responsive design */
+
+    .responsive-design .text-responsive-design {
+        margin-left: 20px;
+    }
+
+    /* Nine nine problems */
+
+    .nine-nine-problems .nine-problems-figure {
+        margin: 43px 0 0 435px;
+    }
+
+}
+
+@media screen and (max-width: 796px) {
+    .container__header {
+        max-width: 796px;
+    }
+    .container {
+        max-width: 796px;
+    }
+    .nine-nine-problems .nine-problems-figure {
+        margin: 43px 0 0 350px;
+    }
+}
+
+@media screen and (max-width: 718px) {
+    .nine-nine-problems .nine-problems-figure {
+        margin: 43px 0 0 315px;
+    }
+}
+
+@media screen and (max-width: 679px) {
+    .container__header {
+        max-width: 560px;
+    }
+    .container {
+        max-width: 560px;
+        padding: 0 15px;
+    }
+    header {
+        padding: 10px 0 80px 10px;
+    }
+    header .main-title__header {
+        letter-spacing: 20px;
+    }
+    header nav ul {
+        margin: 0;
+        justify-content: center;
+    }
+    .nine-nine-problems .nine-problems-figure {
+        margin: 43px 0 0 250px;
+    }
+    .team .wrapper-content-crew__team {
+        gap: 0;
+    }
+    .skills .wrapper-content__skills {
+        gap: 10px;
+    }
+    .skills .icon-content__skills {
+        background-size: 58%;
+    }
+    .skills .line-content__skills {
+        padding-left: 41%;
+    }
+    .subscribe #area-name {
+        padding: 24px 0;
+        width: 100%;
+    }
+    .subscribe #button-send {
+        padding: 24px 0;
+        width: 100%;
+        margin: 25px 0 0;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    header .main-title__header {
+        text-transform: uppercase;
+        font-weight: 400;
+        font-size: 30px;
+        color: #353535;
+        /*
+        letter-spacing: 30px;
+        line-height: 100px;
+        */
+    }
+
+    .skills .wrapper-content__skills {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .skills .icon-content__skills {
+        background-size: 20%;
+    }
+
+    .skills .line-content__skills {
+        padding-left: 47%;
+    }
+
+    .skills .text-content__skills {
+        max-width: none;
+        text-decoration: none;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .responsive-design .title-responsive-design {
+        font-size: 18px;
+        margin-left: 10px;
+    }
+    .nine-nine-problems .nine-problems-figure {
+        margin: 43px 0 0 270px;
+    }
+    .subscribe #area-name {
+        margin-bottom: 30px;
+        width: 100%;
+    }
+    .subscribe #button-send {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .container__header {
+        max-width: 560px;
+    }
+    .container {
+        max-width: 560px;
+        padding: 0 15px;
+    }
+    header {
+        padding: 10px 0 80px 10px;
+    }
+    header .main-title__header {
+        letter-spacing: 20px;
+    }
+    header nav ul {
+        margin: 0;
+        justify-content: center;
+    }
+    .responsive-design .title-responsive-design {
+        margin: 30px 0 50px 0;
+    }
+    .team .wrapper-content-crew__team {
+        gap: 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .container__header {
+        max-width: 480px;
+    }
+    header nav {
+        display: none;
+    }
+    header .button-learn-more__header {
+        padding: 20px 140px;
+    }
+    .container {
+        max-width: 480px;
+    }
+
+    header {
+        padding: 30px 0 100px 30px;
+    }
+    header nav {
+        margin-bottom: 20px;
+    }
+    header .main-title__header {
+        font-size: 14px;
+        font-weight: 800;
+        letter-spacing: 20px;
+    }
+    .creative-template {
+        padding: 30px 0 150px;
+    }
+    .creative-template .text-creative__template {
+        margin-bottom: 30px;
+    }
+    .skills .icon-content__skills {
+        background-size: 30%;
+    }
+    .benefits .wrapper-container__benefits {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .benefits .gallery-hover__benefits {
+        margin: 0 28px;
+    }
+    .benefits .text-item__benefits {
+        margin-bottom: 60px;
+    }
+    .benefits .item__benefits {
+        width: 100%;
+    }
+    .team .wrapper-content-crew__team {
+        flex-direction: column;
+    }
+    .responsive-design {
+        padding-bottom: 50px;
+    }
+    .responsive-design .wrapper-responsive-design {
+        flex-direction: column;
+    }
+    .responsive-design .wrapper-responsive-design:after {
+        display: none;
+    }
+    .responsive-design .item-responsive-design-2,
+    .responsive-design .item-responsive-design-1 {
+        width: 100%;
+    }
+    .nine-nine-problems .nine-problems-figure {
+        margin: 43px 0 0 186px;
+    }
+    .drop .wrapper-main-content__team {
+        flex-direction: column;
+        align-items: center;
+    }
+    .team .wrapper-icons-crew__team {
+        gap: 20px;
+    }
+    footer .wrapper__footer {
+        flex-direction: column;
+    }
+    footer .item-terms__footer {
+        margin-bottom: 20px;
+    }
+    .drop .wrapper-links-network__team {
+        gap: 20px;
+    }
+
+}
+
+@media screen and (max-width: 440px) {
+    header .button-learn-more__header {
+        padding: 20px 60px;
+    }
+    .container__header {
+        max-width: 400px;
+    }
+    .container {
+        max-width: 400px;
+        padding: 0 15px;
+    }
+    header {
+        padding: 10px 0 80px 10px;
+    }
+    .creative-template {
+        padding: 60px 0 220px;
+    }
+    .nine-nine-problems .nine-problems-figure {
+        margin: 43px 0 0 165px;
+    }
+    .drop .links-networks__team {
+        margin-top: 50px;
+    }
+    .drop {
+        padding-bottom: 60px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    header .button-learn-more__header {
+        padding: 20px 60px;
+    }
+    .container__header {
+        max-width: 400px;
+    }
+    .container {
+        max-width: 400px;
+        padding: 0 15px;
+    }
+    header {
+        padding: 10px 0 80px 10px;
+    }
+    .creative-template {
+        padding: 60px 0 220px;
+    }
+    .nine-nine-problems .nine-problems-figure {
+        margin: 43px 0 0 165px;
+    }
+    .drop .links-networks__team {
+        margin-top: 50px;
+    }
+    .drop {
+        padding-bottom: 60px;
+    }
+
+
+}
+
+@media screen and (max-width: 380px) {
+    .container__header {
+        max-width: 320px;
+    }
+    .container {
+        max-width: 320px;
+        padding: 0 15px;
+    }
+    header {
+        padding: 10px 0 80px 10px;
+    }
+    header .main-title__header {
+        letter-spacing: 10px;
+    }
+    header .main-title__header {
+        font-size: 12px;
+    }
+    header .button-learn-more__header {
+        padding: 20px 50px;
+    }
+    .creative-template .text-creative__template {
+        margin-bottom: 140px;
+    }
+    .subscribe #area-name {
+        padding: 30px 0;
+        width: 100%;
+    }
+    .nine-nine-problems .nine-problems-figure {
+        margin: 43px 0 0 100px;
+    }
+    .skills .icon-content__skills {
+        background-size: 40%;
+    }
+    .skills .line-content__skills {
+        padding-left: 45%;
+    }
+    .nine-nine-problems .nine-problems-figure {
+        margin: 43px 0 0 120px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .container__header {
+        max-width: 320px;
+    }
+    .container {
+        max-width: 320px;
+        padding: 0 15px;
+    }
+    header {
+        padding: 10px 0 80px 10px;
+    }
+    header .main-title__header {
+        letter-spacing: 10px;
+    }
+    header .main-title__header {
+        font-size: 12px;
+    }
+    header .button-learn-more__header {
+        padding: 20px 50px;
+    }
+    .creative-template .text-creative__template {
+        margin-bottom: 140px;
+    }
+    .subscribe #area-name {
+        padding: 30px 0;
+        width: 100%;
+    }
+    .nine-nine-problems .nine-problems-figure {
+        margin: 43px 0 0 100px;
+    }
+    .skills .icon-content__skills {
+        background-size: 40%;
+    }
+    .skills .line-content__skills {
+        padding-left: 45%;
+    }
+    .nine-nine-problems .nine-problems-figure {
+        margin: 43px 0 0 120px;
+    }
+}
