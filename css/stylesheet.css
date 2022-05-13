@@ -984,6 +984,12 @@ footer .finlan-name__footer {
     .team .wrapper-content-crew__team {
         gap: 0;
     }
+    .skills .line-content__skills {
+        padding-left: 0;
+    }
+    .skills .line-content__skills img {
+        margin: 0 auto;
+    }
 }
 
 @media (max-device-width: 480px) {
@@ -1020,6 +1026,12 @@ footer .finlan-name__footer {
     }
     .skills .icon-content__skills {
         background-size: 30%;
+    }
+    .skills .line-content__skills {
+        padding-left: 0;
+    }
+    .skills .line-content__skills img {
+        margin: 0 auto;
     }
     .benefits .wrapper-container__benefits {
         flex-direction: column;
@@ -1074,7 +1086,10 @@ footer .finlan-name__footer {
 
 @media (max-device-width: 428px) {
     .skills .line-content__skills {
-        padding-left: 46%;
+        padding-left: 0;
+    }
+    .skills .line-content__skills img {
+        margin: 0 auto;
     }
 }
 
@@ -1104,6 +1119,12 @@ footer .finlan-name__footer {
     .drop {
         padding-bottom: 60px;
     }
+    .skills .line-content__skills {
+        padding-left: 0;
+    }
+    .skills .line-content__skills img {
+        margin: 0 auto;
+    }
 }
 
 @media (max-device-width: 400px) {
@@ -1132,7 +1153,12 @@ footer .finlan-name__footer {
     .drop {
         padding-bottom: 60px;
     }
-
+    .skills .line-content__skills {
+        padding-left: 0;
+    }
+    .skills .line-content__skills img {
+        margin: 0 auto;
+    }
 
 }
 
@@ -1170,7 +1196,10 @@ footer .finlan-name__footer {
         background-size: 40%;
     }
     .skills .line-content__skills {
-        padding-left: 45%;
+        padding-left: 0;
+    }
+    .skills .line-content__skills img {
+        margin: 0 auto;
     }
     .nine-nine-problems .nine-problems-figure {
         margin: 43px 0 0 120px;
@@ -1211,7 +1240,10 @@ footer .finlan-name__footer {
         background-size: 40%;
     }
     .skills .line-content__skills {
-        padding-left: 45%;
+        padding-left: 0;
+    }
+    .skills .line-content__skills img {
+        margin: 0 auto;
     }
     .nine-nine-problems .nine-problems-figure {
         margin: 43px 0 0 120px;
