@@ -22,6 +22,11 @@ a {
      */
     padding: 0 15px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 350px
+
 }
 .container {
     width: 100%;
@@ -36,6 +41,7 @@ a {
 /* Header */
 
 header {
+    height: 100vh;
     width: 100%;
     background-color: #000000;
     background-image: url("../assets/images/header_background.png");
@@ -43,27 +49,43 @@ header {
     background-position: center;
     background-size: cover;
     resize: none;
+    /*
     padding: 30px 0 250px 30px;
+     */
     margin: 0;
 }
 header nav {
-    margin-bottom: 170px;
+    /*
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+
+     */
+    width: 80%;
+
 }
 
 header nav ul {
     display: flex;
     justify-content: flex-end;
-    gap: 30px;
-    margin-right: 50px;
+    gap: 50px;
+    padding-top: 30px;
+
+
 }
 
 header li a {
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 400;
-    color: #353535;
+    color: #8c9398;
 }
+header li:last-child {
+    /*
+    margin-right: 100px;
 
+     */
+}
 header ul li a:hover {
     color: #3dc9b3;
     text-shadow: 4px 4px 0 rgba(0,0,0,0.2);
@@ -71,7 +93,16 @@ header ul li a:hover {
 }
 
 header .general-description__header {
+    /*
     text-align: center;
+    margin-top: 350px;
+
+     */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
 }
 
 header .main-title__header {
@@ -92,7 +123,10 @@ header .main-description__header {
     font-size: 15px;
     font-weight: 300;
     letter-spacing: 4px;
+    /*
     margin-bottom: 65px;
+
+     */
 }
 
 header .button-learn-more__header {
@@ -105,6 +139,11 @@ header .button-learn-more__header {
     text-transform: uppercase;
     letter-spacing: 2px;
     border: 2px solid #3dc9b3;
+    display: inline-block;
+    /*
+    margin-bottom: 150px;
+
+     */
 }
 
 header .button-learn-more__header:hover {
@@ -387,16 +426,16 @@ header .button-learn-more__header:hover {
 
 /* Picture hover */
 
-.benefits .gallery-hover__benefits {
+.benefits .gallery-hover__benefits:hover {
     position: relative;
-    display: inline-block;
     max-width: 360px;
 }
 
 .benefits .gallery-hover__benefits .hover-layer__benefits {
     position: absolute;
-    top: 0;
     display: none;
+    top: 0;
+
 }
 
 .benefits .gallery-hover__benefits:hover .hover-layer__benefits {
@@ -410,7 +449,6 @@ header .button-learn-more__header:hover {
     margin: 0 0 60px 125px;
     color: white;
     text-transform: uppercase;
-    transition: 0.5s;
     font-size: 15px;
     font-weight: 500;
     letter-spacing: 2px;
