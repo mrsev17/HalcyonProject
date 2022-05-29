@@ -209,6 +209,7 @@ header .button-learn-more__header:hover {
 /* Skills */
 .skills {
     background-color: #ffffff;
+    margin: 102px 0 24px 0;
 }
 
 .skills .title__skills {
@@ -218,11 +219,11 @@ header .button-learn-more__header:hover {
     text-transform: uppercase;
     letter-spacing: 1px;
     text-align: center;
-    margin: 102px 0 24px 0;
+
 }
 
 .skills .graph-line__skills {
-    margin-bottom: 88px;
+    margin-top: 40px;
 }
 
 .skills .wrapper-graph-line {
@@ -266,8 +267,9 @@ header .button-learn-more__header:hover {
 }
 
 .skills .wrapper-content__skills {
+    margin-top: 40px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .skills .icon-content__skills {
@@ -275,6 +277,11 @@ header .button-learn-more__header:hover {
     background-repeat: no-repeat;
     background-size: 40%;
     background-position: center;
+}
+
+.skills .item-content__skills {
+    width: calc(100%/3);
+    gap: 40px;
 }
 
 .skills #html-icon-picture,
@@ -289,6 +296,7 @@ header .button-learn-more__header:hover {
 .responsive-design .wrapper-responsive-design {
     display: flex;
     position: relative;
+    gap: 40px;
 }
 
 .responsive-design .wrapper-responsive-design:after {
@@ -341,11 +349,10 @@ header .button-learn-more__header:hover {
 }
 
 .responsive-design .text-responsive-design {
-    text-align: left;
+    text-align: center;
     color: #8c9398;
     font-size: 16px;
     font-weight: 500;
-    margin: 0 0 0 40px;
     padding: 20px 0;
 }
 
@@ -501,6 +508,7 @@ header .button-learn-more__header:hover {
     padding: 30px 50px;
     font-weight: 700;
     letter-spacing: 2px;
+    display: inline-block;
 }
 
 .passion #button_passion:hover {
@@ -649,10 +657,20 @@ header .button-learn-more__header:hover {
 }
 
 .subscribe #area-name {
-    padding: 30px 175px;
+    width: 100%;
+    max-width: 350px;
+    padding: 30px 0 30px 20px;
     background-color: transparent;
     border: 2px solid #f3f5f8;
     border-radius: 3px;
+    color: #f3f5f8;
+}
+.subscribe #area-name::placeholder {
+    color: #f3f5f8;
+    opacity: 0.8;
+    font-size: 18px;
+    letter-spacing: 3px;
+
 }
 
 .subscribe #area-name:focus {
