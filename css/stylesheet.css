@@ -369,7 +369,13 @@ header .button-learn-more__header:hover {
     padding: 30px 0 100px 0;
     margin: 0;
 }
-
+.nine-nine-problems .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
 .nine-nine-problems .title-nine-nine-problem {
     text-align: center;
     color: #ffffff;
@@ -380,7 +386,10 @@ header .button-learn-more__header:hover {
     letter-spacing: 10px;
     margin-top: 50px;
 }
-
+.nine-nine-problems .container-figure-nine {
+    display: flex;
+    justify-content: center;
+}
 .nine-nine-problems .text-nine-nine-problems {
     text-align: center;
     color: #ffffff;
@@ -400,9 +409,6 @@ header .button-learn-more__header:hover {
 .nine-nine-problems .nine-problems-figure {
     position: relative;
     display: inline-block;
-    min-width: 44px;
-    min-height: 44px;
-    margin: 43px 0 0 542px;
 }
 .nine-nine-problems .nine-problems-figure #check-icon-nine-problems {
     position: absolute;
@@ -856,9 +862,7 @@ footer .finlan-name__footer {
 
     /* Nine nine problems */
 
-    .nine-nine-problems .nine-problems-figure {
-        margin: 43px 0 0 456px;
-    }
+
 
     /* benefits adaptive */
 
