@@ -437,40 +437,7 @@ header .button-learn-more__header:hover {
     width: calc(100%/3);
 }
 
-/* Picture hover */
 
-.benefits .gallery-hover__benefits:hover {
-    position: relative;
-    max-width: 360px;
-}
-
-.benefits .gallery-hover__benefits .hover-layer__benefits {
-    position: absolute;
-    display: none;
-    top: 0;
-
-}
-
-.benefits .gallery-hover__benefits:hover .hover-layer__benefits {
-    display: inline;
-}
-
-.benefits .gallery-hover__benefits .view-more-hover__benefits {
-    position: absolute;
-    bottom: 0;
-    display: none;
-    margin: 0 0 60px 125px;
-    color: white;
-    text-transform: uppercase;
-    font-size: 15px;
-    font-weight: 500;
-    letter-spacing: 2px;
-}
-
-.benefits .gallery-hover__benefits:hover .view-more-hover__benefits {
-    display: inline;
-}
-/* ------------- */
 
 .benefits .title-item__benefits {
     text-align: center;
@@ -495,6 +462,44 @@ header .button-learn-more__header:hover {
     font-weight: 500;
 }
 
+/* Hover Gallery */
+
+.container-gallery__benefits {
+    position: relative;
+    background-color: #3dc9b3;
+}
+.container-gallery__benefits img {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .6s ease;
+    backface-visibility: hidden;
+}
+.hover-gallery__benefits {
+    transition: .6s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+.container-gallery__benefits:hover img {
+    opacity: 0.4;
+    width: 100%;
+}
+.container-gallery__benefits:hover .hover-gallery__benefits {
+    opacity: 1;
+}
+.hover-gallery__benefits img {
+    max-width: 28px;
+    margin: 0 auto 10px;
+}
+.hover-gallery__benefits p {
+    color: white;
+}
 
 /* passion */
 
@@ -664,7 +669,7 @@ header .button-learn-more__header:hover {
 
 .subscribe #area-name {
     width: 100%;
-    max-width: 350px;
+    max-width: 450px;
     padding: 30px 0 30px 20px;
     background-color: transparent;
     border: 2px solid #f3f5f8;
