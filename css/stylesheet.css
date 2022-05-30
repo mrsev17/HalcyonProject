@@ -17,9 +17,6 @@ a {
 }
 .container__header {
     width: 100%;
-    /*
-    max-width: 1400px;
-     */
     padding: 0 15px;
     margin: 0 auto;
     display: flex;
@@ -49,20 +46,10 @@ header {
     background-position: center;
     background-size: cover;
     resize: none;
-    /*
-    padding: 30px 0 250px 30px;
-     */
     margin: 0;
 }
 header nav {
-    /*
-    display: flex;
-    justify-content: flex-end;
-    gap: 30px;
-
-     */
     width: 80%;
-
 }
 
 header nav ul {
@@ -80,12 +67,7 @@ header li a {
     font-weight: 400;
     color: #8c9398;
 }
-header li:last-child {
-    /*
-    margin-right: 100px;
 
-     */
-}
 header ul li a:hover {
     color: #3dc9b3;
     text-shadow: 4px 4px 0 rgba(0,0,0,0.2);
@@ -93,11 +75,7 @@ header ul li a:hover {
 }
 
 header .general-description__header {
-    /*
-    text-align: center;
-    margin-top: 350px;
-
-     */
+    margin: auto auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -112,6 +90,7 @@ header .main-title__header {
     color: #353535;
     letter-spacing: 30px;
     line-height: 100px;
+
 }
 
 header #days-main-title__header {
@@ -123,10 +102,6 @@ header .main-description__header {
     font-size: 15px;
     font-weight: 300;
     letter-spacing: 4px;
-    /*
-    margin-bottom: 65px;
-
-     */
 }
 
 header .button-learn-more__header {
@@ -140,10 +115,6 @@ header .button-learn-more__header {
     letter-spacing: 2px;
     border: 2px solid #3dc9b3;
     display: inline-block;
-    /*
-    margin-bottom: 150px;
-
-     */
 }
 
 header .button-learn-more__header:hover {
