@@ -836,9 +836,6 @@ footer .finlan-name__footer {
         padding: 0 30px;
     }
 
-    /* Nine nine problems */
-
-
 
     /* benefits adaptive */
 
@@ -866,16 +863,11 @@ footer .finlan-name__footer {
 
     /* Nine nine problems */
 
-    .nine-nine-problems .nine-problems-figure {
-        margin: 43px 0 0 435px;
-    }
 
 }
 
 @media (max-device-width: 856px) {
-    .nine-nine-problems .nine-problems-figure {
-        margin: 43px 0 0 360px;
-    }
+
 }
 
 @media (max-device-width: 796px) {
@@ -885,14 +877,11 @@ footer .finlan-name__footer {
     .container {
         max-width: 796px;
     }
-    .nine-nine-problems .nine-problems-figure {
-        margin: 43px 0 0 350px;
-    }
 }
 
 @media (max-device-width: 718px) {
-    .nine-nine-problems .nine-problems-figure {
-        margin: 43px 0 0 315px;
+    header .main-description__header {
+        text-align: center;
     }
 }
 
@@ -904,18 +893,31 @@ footer .finlan-name__footer {
         max-width: 560px;
         padding: 0 15px;
     }
-    header {
-        padding: 10px 0 80px 10px;
+    header .general-description__header {
+        margin: auto auto;
     }
     header .main-title__header {
         letter-spacing: 20px;
+    }
+    header .main-description__header {
+        text-align: center;
+    }
+    header nav {
+        width: 100%;
     }
     header nav ul {
         margin: 0;
         justify-content: center;
     }
-    .nine-nine-problems .nine-problems-figure {
-        margin: 43px 0 0 250px;
+    .responsive-design .wrapper-responsive-design {
+        flex-direction: column;
+    }
+    .responsive-design .wrapper-responsive-design:after {
+        display: none;
+    }
+    .responsive-design .item-responsive-design-2,
+    .responsive-design .item-responsive-design-1 {
+        width: 100%;
     }
     .team .wrapper-content-crew__team {
         gap: 0;
@@ -938,6 +940,10 @@ footer .finlan-name__footer {
         width: 100%;
         margin: 25px 0 0;
     }
+    .skills .item-content__skills {
+        width: 100%;
+    }
+
 }
 
 @media (max-device-width: 648px) {
@@ -947,10 +953,7 @@ footer .finlan-name__footer {
         font-weight: 400;
         font-size: 30px;
         color: #353535;
-        /*
-        letter-spacing: 30px;
-        line-height: 100px;
-        */
+
     }
 
     .skills .wrapper-content__skills {
@@ -980,9 +983,6 @@ footer .finlan-name__footer {
         font-size: 18px;
         margin-left: 10px;
     }
-    .nine-nine-problems .nine-problems-figure {
-        margin: 43px 0 0 255px;
-    }
     .subscribe #area-name {
         margin-bottom: 30px;
         width: 100%;
@@ -1003,9 +1003,6 @@ footer .finlan-name__footer {
     .container {
         max-width: 560px;
         padding: 0 15px;
-    }
-    header {
-        padding: 10px 0 80px 10px;
     }
     header .main-title__header {
         letter-spacing: 20px;
@@ -1048,12 +1045,11 @@ footer .finlan-name__footer {
     .container {
         max-width: 480px;
     }
-
-    header {
-        padding: 30px 0 100px 30px;
-    }
     header nav {
         margin-bottom: 20px;
+    }
+    header .general-description__header {
+        margin-top: 50%;
     }
     header .main-title__header {
         font-size: 14px;
@@ -1074,6 +1070,12 @@ footer .finlan-name__footer {
     }
     .skills .line-content__skills img {
         margin: 0 auto;
+    }
+    .skills .wrapper-graph-line {
+        display: none;
+    }
+    .creative-template .graph-line__template {
+        display: none;
     }
     .benefits .wrapper-container__benefits {
         flex-direction: column;
@@ -1104,15 +1106,16 @@ footer .finlan-name__footer {
     .responsive-design .item-responsive-design-1 {
         width: 100%;
     }
-    .nine-nine-problems .nine-problems-figure {
-        margin: 43px 0 0 186px;
-    }
     .drop .wrapper-main-content__team {
         flex-direction: column;
         align-items: center;
     }
     .team .wrapper-icons-crew__team {
         gap: 20px;
+    }
+    .team .wrapper-container__team  figure,
+    .drop .wrapper-container__team  figure {
+        display: none;
     }
     footer .wrapper__footer {
         flex-direction: column;
@@ -1140,15 +1143,10 @@ footer .finlan-name__footer {
         max-width: 400px;
         padding: 0 15px;
     }
-    header {
-        padding: 10px 0 80px 10px;
-    }
     .creative-template {
         padding: 60px 0 60px;
     }
-    .nine-nine-problems .nine-problems-figure {
-        margin: 43px 0 0 165px;
-    }
+
     .drop .links-networks__team {
         margin-top: 50px;
     }
@@ -1164,6 +1162,9 @@ footer .finlan-name__footer {
 }
 
 @media (max-device-width: 428px) {
+    header .general-description__header {
+        margin-top: 50%;
+    }
     .creative-template {
         padding: 30px 0 70px;
     }
@@ -1186,15 +1187,10 @@ footer .finlan-name__footer {
         max-width: 400px;
         padding: 0 15px;
     }
-    header {
-        padding: 10px 0 80px 10px;
-    }
     .creative-template {
         padding: 60px 0 60px;
     }
-    .nine-nine-problems .nine-problems-figure {
-        margin: 43px 0 0 165px;
-    }
+
     .drop .links-networks__team {
         margin-top: 50px;
     }
@@ -1221,9 +1217,6 @@ footer .finlan-name__footer {
         max-width: 320px;
         padding: 0 15px;
     }
-    header {
-        padding: 10px 0 80px 10px;
-    }
     header .main-title__header {
         letter-spacing: 10px;
     }
@@ -1239,9 +1232,6 @@ footer .finlan-name__footer {
     .subscribe #area-name {
         padding: 30px 0;
         width: 100%;
-    }
-    .nine-nine-problems .nine-problems-figure {
-        margin: 43px 0 0 100px;
     }
     .skills .icon-content__skills {
         background-size: 40%;
@@ -1268,9 +1258,6 @@ footer .finlan-name__footer {
         max-width: 320px;
         padding: 0 15px;
     }
-    header {
-        padding: 10px 0 80px 10px;
-    }
     header .main-title__header {
         letter-spacing: 10px;
     }
@@ -1286,9 +1273,6 @@ footer .finlan-name__footer {
     .subscribe #area-name {
         padding: 30px 0;
         width: 100%;
-    }
-    .nine-nine-problems .nine-problems-figure {
-        margin: 43px 0 0 100px;
     }
     .skills .icon-content__skills {
         background-size: 40%;
