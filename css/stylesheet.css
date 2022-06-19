@@ -685,7 +685,10 @@ header .button-learn-more__header:hover {
     border: 2px solid #3dc9b3;
     transition: .5s;
 }
-
+.subscribe__form-wrapper {
+    text-align: center;
+    margin: 30px 0;
+}
 /* Drop */
 
 .drop {
